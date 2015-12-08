@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B831A4C21C170D8400A56818 /* WYKAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B831A4C11C170D8400A56818 /* WYKAppDelegate.swift */; };
+		B831A4C71C170D8500A56818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B831A4C51C170D8500A56818 /* Main.storyboard */; };
+		B831A4C91C170D8500A56818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B831A4C81C170D8500A56818 /* Assets.xcassets */; };
+		B831A4CC1C170D8500A56818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B831A4CA1C170D8500A56818 /* LaunchScreen.storyboard */; };
+		B831A4D61C170EF600A56818 /* WYKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B831A4D51C170EF600A56818 /* WYKViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B831A4BE1C170D8400A56818 /* WYKPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYKPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B831A4C11C170D8400A56818 /* WYKAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYKAppDelegate.swift; sourceTree = "<group>"; };
+		B831A4C61C170D8500A56818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B831A4C81C170D8500A56818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		B831A4CB1C170D8500A56818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B831A4CD1C170D8500A56818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		B831A4D51C170EF600A56818 /* WYKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYKViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B831A4BB1C170D8400A56818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B831A4B51C170D8400A56818 = {
+			isa = PBXGroup;
+			children = (
+				B831A4C01C170D8400A56818 /* WYKPhotoBrowser */,
+				B831A4BF1C170D8400A56818 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B831A4BF1C170D8400A56818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B831A4BE1C170D8400A56818 /* WYKPhotoBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B831A4C01C170D8400A56818 /* WYKPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				B831A4C11C170D8400A56818 /* WYKAppDelegate.swift */,
+				B831A4D71C170F2200A56818 /* WYKPhotoBrowser */,
+				B831A4D31C170EA000A56818 /* Example */,
+				B831A4D41C170EA000A56818 /* SupportFiles */,
+			);
+			path = WYKPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		B831A4D31C170EA000A56818 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				B831A4D51C170EF600A56818 /* WYKViewController.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		B831A4D41C170EA000A56818 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B831A4C51C170D8500A56818 /* Main.storyboard */,
+				B831A4C81C170D8500A56818 /* Assets.xcassets */,
+				B831A4CA1C170D8500A56818 /* LaunchScreen.storyboard */,
+				B831A4CD1C170D8500A56818 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		B831A4D71C170F2200A56818 /* WYKPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WYKPhotoBrowser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B831A4BD1C170D8400A56818 /* WYKPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B831A4D01C170D8500A56818 /* Build configuration list for PBXNativeTarget "WYKPhotoBrowser" */;
+			buildPhases = (
+				B831A4BA1C170D8400A56818 /* Sources */,
+				B831A4BB1C170D8400A56818 /* Frameworks */,
+				B831A4BC1C170D8400A56818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYKPhotoBrowser;
+			productName = WYKPhotoBrowser;
+			productReference = B831A4BE1C170D8400A56818 /* WYKPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B831A4B61C170D8400A56818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = secoo;
+				TargetAttributes = {
+					B831A4BD1C170D8400A56818 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = B831A4B91C170D8400A56818 /* Build configuration list for PBXProject "WYKPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B831A4B51C170D8400A56818;
+			productRefGroup = B831A4BF1C170D8400A56818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B831A4BD1C170D8400A56818 /* WYKPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B831A4BC1C170D8400A56818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B831A4CC1C170D8500A56818 /* LaunchScreen.storyboard in Resources */,
+				B831A4C91C170D8500A56818 /* Assets.xcassets in Resources */,
+				B831A4C71C170D8500A56818 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B831A4BA1C170D8400A56818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B831A4D61C170EF600A56818 /* WYKViewController.swift in Sources */,
+				B831A4C21C170D8400A56818 /* WYKAppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B831A4C51C170D8500A56818 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B831A4C61C170D8500A56818 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B831A4CA1C170D8500A56818 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B831A4CB1C170D8500A56818 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B831A4CE1C170D8500A56818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B831A4CF1C170D8500A56818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B831A4D11C170D8500A56818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYKPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.secoo.www.WYKPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B831A4D21C170D8500A56818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYKPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.secoo.www.WYKPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B831A4B91C170D8400A56818 /* Build configuration list for PBXProject "WYKPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B831A4CE1C170D8500A56818 /* Debug */,
+				B831A4CF1C170D8500A56818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B831A4D01C170D8500A56818 /* Build configuration list for PBXNativeTarget "WYKPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B831A4D11C170D8500A56818 /* Debug */,
+				B831A4D21C170D8500A56818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B831A4B61C170D8400A56818 /* Project object */;
+}
