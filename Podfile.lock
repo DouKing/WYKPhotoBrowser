@@ -1,12 +1,10 @@
 PODS:
-  - SDWebImage (3.7.3):
-    - SDWebImage/Core (= 3.7.3)
-  - SDWebImage/Core (3.7.3)
+  - Kingfisher (1.8.3)
 
 DEPENDENCIES:
-  - SDWebImage (~> 3.7.3)
+  - Kingfisher (~> 1.8.3)
 
 SPEC CHECKSUMS:
-  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  Kingfisher: ead91e9dbeb7e5a2e8b7af3bd8a294104cbcc3f9
 
 COCOAPODS: 0.39.0
