@@ -13,6 +13,8 @@
 		B831A4C91C170D8500A56818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B831A4C81C170D8500A56818 /* Assets.xcassets */; };
 		B831A4CC1C170D8500A56818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B831A4CA1C170D8500A56818 /* LaunchScreen.storyboard */; };
 		B831A4D61C170EF600A56818 /* WYKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B831A4D51C170EF600A56818 /* WYKViewController.swift */; };
+		B831A4D91C1840B600A56818 /* WYKPhotoBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B831A4D81C1840B600A56818 /* WYKPhotoBrowserViewController.swift */; };
+		B831A4DB1C1841D900A56818 /* WYKPhotoBrowserAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B831A4DA1C1841D900A56818 /* WYKPhotoBrowserAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		B831A4CB1C170D8500A56818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B831A4CD1C170D8500A56818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		B831A4D51C170EF600A56818 /* WYKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYKViewController.swift; sourceTree = "<group>"; };
+		B831A4D81C1840B600A56818 /* WYKPhotoBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYKPhotoBrowserViewController.swift; sourceTree = "<group>"; };
+		B831A4DA1C1841D900A56818 /* WYKPhotoBrowserAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYKPhotoBrowserAnimator.swift; sourceTree = "<group>"; };
 		D6CEF16644386E018F8C5C2D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,6 +112,8 @@
 		B831A4D71C170F2200A56818 /* WYKPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				B831A4D81C1840B600A56818 /* WYKPhotoBrowserViewController.swift */,
+				B831A4DA1C1841D900A56818 /* WYKPhotoBrowserAnimator.swift */,
 			);
 			path = WYKPhotoBrowser;
 			sourceTree = "<group>";
@@ -234,6 +240,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B831A4DB1C1841D900A56818 /* WYKPhotoBrowserAnimator.swift in Sources */,
+				B831A4D91C1840B600A56818 /* WYKPhotoBrowserViewController.swift in Sources */,
 				B831A4D61C170EF600A56818 /* WYKViewController.swift in Sources */,
 				B831A4C21C170D8400A56818 /* WYKAppDelegate.swift in Sources */,
 			);
