@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,12 +17,46 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <button opaque="NO" tag="1000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kOj-ov-iNv">
+                                <rect key="frame" x="20" y="80" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="kgQ-0P-hqD"/>
+                                    <constraint firstAttribute="width" constant="50" id="mTa-Ef-Xx9"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="_handleTapImageButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k6z-2t-tmv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNf-WM-jm5">
+                                <rect key="frame" x="20" y="138" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="dCz-BT-3YH"/>
+                                    <constraint firstAttribute="height" constant="50" id="wPV-4L-Ceg"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="_handleTapImageButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q1v-Dg-AIK"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dNf-WM-jm5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="JHf-rJ-6VQ"/>
+                            <constraint firstItem="kOj-ov-iNv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cUQ-vj-lUT"/>
+                            <constraint firstItem="dNf-WM-jm5" firstAttribute="top" secondItem="kOj-ov-iNv" secondAttribute="bottom" constant="8" id="hub-VP-dbq"/>
+                            <constraint firstItem="kOj-ov-iNv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="nBh-ak-g8r"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageButton1" destination="kOj-ov-iNv" id="LY1-1F-86v"/>
+                        <outlet property="imageButton2" destination="dNf-WM-jm5" id="z9T-ry-fsb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="375" y="337"/>
         </scene>
     </scenes>
 </document>
